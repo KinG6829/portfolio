@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publications - Sachin's Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 20px auto;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section h2 {
+            color: #0073e6;
+            border-bottom: 2px solid #0073e6;
+            padding-bottom: 10px;
+        }
+        .publications {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .publication {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 20px;
+            width: 48%;
+            margin-bottom: 20px;
+            transition: transform 0.3s ease;
+        }
+        .publication:hover {
+            transform: scale(1.05);
+        }
+        .publication h3 {
+            margin-top: 0;
+        }
+        .publication a {
+            color: #0073e6;
+            text-decoration: none;
+        }
+        .publication a:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 768px) {
+            .publication {
+                width: 100%;
+            }
+        }
+        footer {
+            background-color: #0073e6;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="section">
+            <h2>Publications</h2>
+            <div class="publications">
+                <div class="publication">
+                    <h3><a href="https://yourlinktopaper1.com">Gas Sensor Analysis Paper 1</a></h3>
+                    <p>Published paper on gas sensor analysis. <a href="https://yourlinktopaper1.com">Read More</a></p>
+                </div>
+                <div class="publication">
+                    <h3><a href="https://yourlinktopaper2.com">Gas Sensor Analysis Paper 2</a></h3>
+                    <p>Published paper on gas sensor analysis. <a href="https://yourlinktopaper2.com">Read More</a></p>
+                </div>
+                <div class="publication">
+                    <h3><a href="https://yourlinktopaper3.com">Speech and Vision Fusion Analysis</a></h3>
+                    <p>Currently publishing a paper on speech and vision fusion analysis using deep learning. <a href="https://yourlinktopaper3.com">Read More</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Sachin. All rights reserved.</p>
+    </footer>
+</body>
+</html>
