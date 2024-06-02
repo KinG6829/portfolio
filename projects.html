@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Sachin's Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 20px auto;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section h2 {
+            color: #0073e6;
+            border-bottom: 2px solid #0073e6;
+            padding-bottom: 10px;
+        }
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .project {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 20px;
+            width: 48%;
+            margin-bottom: 20px;
+            transition: transform 0.3s ease;
+        }
+        .project:hover {
+            transform: scale(1.05);
+        }
+        .project h3 {
+            margin-top: 0;
+        }
+        .project a {
+            color: #0073e6;
+            text-decoration: none;
+        }
+        .project a:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 768px) {
+            .project {
+                width: 100%;
+            }
+        }
+        footer {
+            background-color: #0073e6;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="section">
+            <h2>Projects</h2>
+            <div class="projects">
+                <div class="project">
+                    <h3><a href="https://github.com/yourusername/ai-humanoid-robot">AI-Based Humanoid Robot</a></h3>
+                    <p>Developed a humanoid robot focusing on movement and human interaction, leveraging AI and ML technologies. <a href="https://github.com/yourusername/ai-humanoid-robot">View on GitHub</a></p>
+                </div>
+                <div class="project">
+                    <h3><a href="https://github.com/yourusername/community-health-monitoring-app">Community Health Monitoring App</a></h3>
+                    <p>Created a mobile application that enables users to report symptoms, track outbreaks, and receive personalized health recommendations, ensuring data privacy and security. <a href="https://github.com/yourusername/community-health-monitoring-app">View on GitHub</a></p>
+                </div>
+                <div class="project">
+                    <h3><a href="https://github.com/yourusername/uwv-pico-grid">Unmanned Water Vehicle (UWV)</a></h3>
+                    <p>Developed a UWV powered by a Pico grid to monitor pollution at the water surface, integrating a deep learning-based image classification CNN model. <a href="https://github.com/yourusername/uwv-pico-grid">View on GitHub</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Sachin. All rights reserved.</p>
+    </footer>
+</body>
+</html>
